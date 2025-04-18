@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Travely">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <title>Travely Emile à Lisbonne</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Travely Emile à Lisbonne</h1></header>
+  <section id="budget">
+    Solde restant : <span id="remaining-budget">--</span> €
+  </section>
+  <main id="timeline"></main>
+  <section id="extra-costs">
+    <h2>Dépenses imprévues</h2>
+    <input type="text" id="cost-category" placeholder="Catégorie"/>
+    <input type="number" id="cost-amount" placeholder="Montant €"/>
+    <button id="add-cost">Ajouter</button>
+    <ul id="cost-list"></ul>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>

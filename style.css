@@ -1,0 +1,13 @@
+body { font-family: sans-serif; margin: 0; padding: 0; }
+header { background: #333; color: #fff; padding: 1rem; text-align: center; position: sticky; top: 0; }
+#budget { background: #f1f1f1; padding: 0.5rem 1rem; font-weight: bold; position: sticky; top: 3rem; }
+main#timeline { padding: 1rem; }
+section#extra-costs { padding: 1rem; background: #fafafa; }
+section#extra-costs input, section#extra-costs button { margin-right: 0.5rem; }
+.day { margin-bottom: 2rem; }
+.day h2 { margin-bottom: 0.5rem; }
+.activity { border-left: 4px solid #ccc; padding: 0.5rem 1rem; margin-bottom: 0.5rem; position: relative; display: flex; justify-content: space-between; align-items: center; }
+.activity.done { border-color: green; opacity: 0.6; }
+.activity::before { content: ''; width: 10px; height: 10px; background: #ccc; border-radius: 50%; position: absolute; left: -7px; top: 0.7rem; }
+.activity.done::before { background: green; }
+button { cursor: pointer; }
